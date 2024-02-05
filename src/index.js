@@ -61,7 +61,7 @@ app.post('/register', async(req,res) => {
         data.pass = hashp;
         const userdata = await Student.insertMany(data);
         console.log(userdata)
-        res.send('User saved successfully') 
+        res.send('User saved successfully')
     }
         //res.redirect('/register')
 })
