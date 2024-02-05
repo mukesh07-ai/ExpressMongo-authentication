@@ -17,7 +17,3 @@ Schema = mongoose.Schema({
 
 StudentModel = mongoose.model("Student",Schema);
 module.exports = StudentModel
-
-
-
-
